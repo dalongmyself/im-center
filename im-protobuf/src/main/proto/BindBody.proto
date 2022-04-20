@@ -1,0 +1,10 @@
+syntax = "proto3";
+package com.im.netty.model.proto;
+option java_outer_classname = "BindBodyProto";
+message BindModel {
+  string uid        = 1;
+  string deviceId   = 2;
+  string clientType = 3;
+  string appVersion = 4;
+  int64  timestamp  = 5;
+}
